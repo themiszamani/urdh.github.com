@@ -25,17 +25,17 @@ body {
     overflow: auto;
     hyphens: auto;
 }
-body>article {
+body>article, #identity {
     min-width: 25em;
     max-width: 30em;
     margin: 0 auto;
 }
-body>article a {
+body>article a, #identity a {
     color: #627360;
     border-bottom: 1px dotted;
     text-decoration: none;
 }
-body>article a:hover {
+body>article a:hover, #identity a:hover {
     color: #D2392B;
 }
 body>article h1, body>article h2, body>article h3, body>article h4 {
@@ -45,11 +45,11 @@ article.post div.highlight {
     padding: 0 1em;
     margin: 0 -1em;
 }
-article hr {
+article hr, #identity hr {
     border: 0;
     border-top: 1px solid #475345;
 }
-.post+.anchor {
+.post+.anchor, #identity+.anchor {
     margin-top: 4.5em;
 }
 /* Styling the anchor stuff */
